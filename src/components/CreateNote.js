@@ -61,7 +61,7 @@ export default class CreateNote extends Component {
       console.log(res);
     }
     else {
-      const res = await axios.post('https://app-notes-react.herokuapp.com/api/notes', note)
+      const res = await axios.post('https://app-notes-react.herokuapp.com/api/notes/', note)
       console.log(res);
     }
 
